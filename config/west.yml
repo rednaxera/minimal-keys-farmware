@@ -11,9 +11,10 @@ manifest:
       remote: hyhy-masa
       revision: 09ee8b42
       import: app/west.yml
-    - name: zmk-pmw3610-driver
+    - name: pmw3610-driver-minimal
       remote: hyhy-masa
-      revision: c9ab9a3f
+      revision: "6609a62"
+      path: modules/pmw3610-driver-minimal
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: e9472d6c
