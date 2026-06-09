@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: hyhy-masa
-      revision: 2e2e8e8c
+      revision: 957c4b0c
       import: app/west.yml
     - name: pmw3610-driver-minimal
       remote: hyhy-masa
