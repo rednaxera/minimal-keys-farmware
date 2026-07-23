@@ -104,10 +104,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp LEFT_SHIFT    &mkp MB2           &mkp MB1      &mkp MB3                                       &kp F1     &kp F6                    &kp UP_ARROW               &kp RG(S)        &kp RG(R)
-&kp TAB           &kp HASH          &kp RS(AMPERSAND)  &kp QUESTION  &kp EXCLAMATION  &kp COLON    &kp RS(RCMD)     &kp EQUAL  &kp LEFT_ARROW            &kp DOWN_ARROW             &kp RIGHT_ARROW  &kp F10
-&kp PERCENT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &kp BACKSLASH    &kp SEMI     &kp RIGHT_SHIFT  &kp RCMD   &kp RS(RG(LEFT_BRACKET))  &kp RS(LG(RIGHT_BRACKET))  &kp RS(LG(T))    &kp F11
-&kp LEFT_COMMAND  &kp LG(F)         &kp LG(X)          &kp LG(Z)     &kp LS(LG(Z))    &kp LG(Y)    &kp RG(A)        &kp RG(X)                                                                        &kp RIGHT_SHIFT
+&kp ESCAPE  &kp A    &mkp MB2           &mkp MB1  &mkp MB3                         &kp F1     &kp F6                    &kp UP_ARROW               &kp RG(S)      &kp RG(R)
+&kp F1      &kp F2   &kp F3             &kp F4    &kp F5         &trans    &trans  &kp F6     &kp F7                    &kp F8                     &kp F9         &kp F10
+&kp F11     &kp F12  &kp RIGHT_BRACKET  &kp AT    &kp BACKSLASH  &trans    &trans  &kp RCMD   &kp RS(RG(LEFT_BRACKET))  &kp RS(LG(RIGHT_BRACKET))  &kp RS(LG(T))  &kp F11
+&trans      &trans   &trans             &trans    &trans         &trans    &trans  &kp RG(X)                                                                      &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&rsr_trans>;
